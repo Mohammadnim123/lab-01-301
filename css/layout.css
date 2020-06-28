@@ -1,0 +1,29 @@
+@media (min-width: 480px) and (max-width: 768px){
+    #f,#h{
+        margin: -252px 0 0 240px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 960px){
+    section{
+        margin: -602px 0 0 202px;
+    }
+  
+    #d{
+        margin: -202px 0 0 378px;
+    }
+  
+    #f{
+        margin: -252px 0 0 192px;
+    }
+  
+    #g{
+      margin: -252px 0 0 382px;
+  }
+  
+  #h{
+      margin: -252px 0 0 568px;
+  }
+}
+
