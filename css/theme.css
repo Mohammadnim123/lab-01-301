@@ -1,3 +1,5 @@
+@media (min-width: 480px) and (max-width: 768px){
+
 #a{
     background-color: rgb(0, 255, 136);
     } 
@@ -24,3 +26,33 @@
                                 } #i{
                                     background-color: rgb(0, 255, 128);
                                     } 
+                                }
+ @media (min-width: 768px) and (max-width: 960px){
+    #a{
+        background-color: rgb(36, 99, 70);
+        } 
+        #b{
+            background-color: rgb(57, 131, 112);
+            } 
+            #c{
+                background-color: rgb(233, 233, 233);
+                } 
+                #d{
+                    background-color: rgb(61, 1, 1);
+                    } 
+                    #e{
+                        background-color: rgb(148, 119, 56);
+                        } 
+                        #f{
+                            background-color: rgb(133, 70, 89);
+                            } 
+                            #g{
+                                background-color: rgb(104, 112, 61);
+                                } 
+                                #h{
+                                    background-color: rgb(116, 65, 113);
+                                    } #i{
+                                        background-color: rgb(65, 112, 89);
+                                        } 
+ }
+                               

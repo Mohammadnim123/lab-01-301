@@ -3,43 +3,46 @@ div{
     border: 1px solid black;
     text-align: center;
     font-size: 50px;
+    background-color: gray;
 }
 
 @media (min-width: 480px) and (max-width: 768px){
     #a{
-        width: 480px;
         height: 75px;
     }
 
     #b{
-        width: 480px;
+        
         height: 150px;
 
     }
 
     #c{
-width: 480px;
+
 height: 125px;
     }
 
     #d{
-        width: 480px;
+        
         height: 125px;
             }
 
             #e,#f,#g,#h{
-                width: 240px;
+                flex-basis: 240px;
                 height:250px;
             }
 
             #i{
-                width: 480px;
+                flex-basis: 480px;
                 height: 80px;
             }
 
 }
 
 @media (min-width: 768px) and (max-width: 960px){
+   body{
+    flex-wrap:wrap;
+   }
     #a{
         width: 960px;
         height: 100px;
@@ -63,7 +66,7 @@ height: 125px;
     #i{
         width: 758px;
         height: 150px;
-        margin-top: -4px;
+        
         
     }
 }
